@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+<fieldset>
+    <h1>Gestión de Biblioteca</h1>
+
+    <h2>Agregar Libro</h2>
+    <input type="text" id="titulo" placeholder="Título" required>
+    <input type="text" id="autor" placeholder="Autor" required>
+    <select id="tipoLibro" required>
+        <option value="">Seleccione el tipo de libro</option>
+        <option value="digital">Libro Digital</option>
+        <option value="fisico">Libro Físico</option>
+    </select>
+    <button id="agregarLibro">Agregar Libro</button>
+    <br><br>
+
+    <h2>Buscar Libros por Autor</h2>
+    <input type="text" id="autorBuscar" placeholder="Autor" required>
+    <button id="listarLibros">Listar Libros</button>
+
+    <div id="resultado8"></div>
+</fieldset>
+<script src="./ejer 8 .js"></script>
+</body>
+</html>

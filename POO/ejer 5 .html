@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <fieldset>
+    <div class="container">
+        <h2>Sistema Bancario</h2>
+        <div class="form-group">
+            <label for="numeroCuenta">Número de Cuenta:</label>
+            <input type="text" id="numeroCuenta">
+        </div>
+        <div class="form-group">
+            <label for="saldoInicial">Saldo Inicial:</label>
+            <input type="number" id="saldoInicial">
+        </div>
+        <div class="form-group">
+            <label for="tipoCuenta">Tipo de Cuenta:</label>
+            <select id="tipoCuenta">
+                <option value="ahorros">Cuenta de Ahorros</option>
+                <option value="corriente">Cuenta Corriente</option>
+            </select>
+        </div>
+        <button onclick="crearCuenta()">Crear Cuenta</button>
+
+        <div class="form-group">
+            <label for="cantidad">Cantidad (Depósito/Retiro):</label>
+            <input type="number" id="cantidad">
+        </div>
+        <button onclick="realizarDeposito()">Depositar</button>
+        <button onclick="realizarRetiro()">Retirar</button>
+
+        <div class="form-group" id="intereses" style="display: none;">
+            <button onclick="aplicarIntereses()">Aplicar Intereses</button>
+        </div>
+
+        <div class="result" id="resultado5"></div>
+    </div>
+</fieldset>
+    <script src="./ejer 5 .js"></script>
+</body>
+</html>

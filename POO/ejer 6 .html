@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Catálogo de Vehículos</h2>
+        <div class="form-group">
+            <label for="tipoVehiculo">Tipo de Vehículo:</label>
+            <select id="tipoVehiculo">
+                <option value="auto">Auto</option>
+                <option value="moto">Moto</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca">
+        </div>
+        <div class="form-group">
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo">
+        </div>
+        <div class="form-group">
+            <label for="año">Año:</label>
+            <input type="number" id="año">
+        </div>
+        <button onclick="agregarVehiculo()">Agregar Vehículo</button>
+        <button onclick="listarVehiculos()">Listar Vehículos</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+    <script src="./ejer 6 .js"></script>
+</body>
+</html>

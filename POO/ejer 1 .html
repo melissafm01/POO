@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicios 1 y 7</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- GESTION DE ESTUDIANTES -->
+    <fieldset>
+        <h1>Gestión de Estudiantes</h1>
+        <input type="text" id="nombre" placeholder="Nombre del Estudiante" required>
+        <input type="number" id="edad" placeholder="Edad" required>
+        <button id="agregarEstudiante">Agregar Estudiante</button><br><br>
+
+        <input type="text" id="nombreEstudianteCalificacion" placeholder="Nombre del Estudiante" required>
+        <input type="number" id="calificacion" placeholder="Calificación" required>
+        <button id="agregarCalificacion">Agregar Calificación</button><br><br>
+
+        <input type="text" id="nombreEstudiantePromedio" placeholder="Nombre del Estudiante" required>
+        <button id="calcularPromedio">Calcular Promedio</button>
+
+        <div id="resultado1"></div>
+    </fieldset>
+<br><br>
+
+
+
+    <h1>Ejercicio 7</h1>
+     <!-- GESTIÓN DE CURSOS -->
+     <fieldset>
+        <h1>Gestión de Cursos</h1>
+        <input type="text" id="nombreCurso" placeholder="Nombre del Curso" required>
+        
+        <label>
+            <input type="radio" name="tipoCurso" value="online" required> Online
+        </label>
+        <label>
+            <input type="radio" name="tipoCurso" value="presencial" required> Presencial
+        </label>
+        
+        <button id="agregarCurso">Agregar Curso</button>
+        <br><br>
+
+        <input type="text" id="nombreEstudianteCurso" placeholder="Nombre del Estudiante" required>
+        <input type="text" id="cursoNombre" placeholder="Nombre del Curso" required>
+        <button id="agregarEstudianteCurso">Agregar Estudiante al Curso</button>
+        <br><br>
+
+        <input type="text" id="cursoPromedio" placeholder="Nombre del Curso" required>
+        <button id="calcularPromedioCurso">Calcular Promedio del Curso</button>
+
+        <div id="resultado7"></div>
+    </fieldset>
+
+    <script src="./ejer 1 .js"></script>
+</body>
+</html>

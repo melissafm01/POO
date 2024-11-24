@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Sistema de Empleados</h1>
+      
+        <h2>Agregar Empleado</h2>
+        <input type="text" id="nombre" placeholder="Nombre del Empleado" required>
+        <input type="number" id="sueldo" placeholder="Sueldo por hora" required>
+        <select id="tipoEmpleado">
+            <option value="tiempoCompleto">Tiempo Completo</option>
+            <option value="medioTiempo">Medio Tiempo</option>
+        </select>
+        <input type="number" id="horasTrabajadas" placeholder="Horas Trabajadas" required>
+        <button id="agregarEmpleado">Agregar Empleado</button>
+      
+        <h2>Lista de Sueldos</h2>
+        <div id="empleados"></div>
+        </fieldset>
+<script src="./ejer 4 .js"></script>      
+</body>
+</html>

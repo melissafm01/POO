@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Zoológico</h1>
+        <form id="animalForm">
+            <label for="nombreAnimal">Nombre del animal:</label>
+            <input type="text" id="nombreAnimal" required>
+            <br><br>
+            <label for="especie">Especie:</label>
+            <select id="especie" required>
+                <option value="Leon">León</option>
+                <option value="Elefante">Elefante</option>
+                <option value="Tigre">Tigre</option>
+            </select>
+            <br><br>
+            <button type="submit">Agregar Animal</button>
+        </form>
+    
+        <div class="animal-list" id="animalList"></div>
+        <button id="ejecutarAcciones">Ejecutar Acciones</button>
+        <div class="acciones-list" id="accionesList"></div> 
+    </div>
+    
+</fieldset>
+<script src="./ejer 2 .js"></script>
+</body>
+</html>
